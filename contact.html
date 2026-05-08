@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Об авторе | Гид по ЗОЖ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <img src="sources/images/основное лого сайта.jpg" alt="Логотип ЗОЖ">
+                <h1>ЗОЖ</h1>
+            </div>
+            <div class="burger-menu" id="burgerMenu">
+                <span></span><span></span><span></span>
+            </div>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html">Главная</a>
+                <a href="about.html">5 Основ</a>
+                <a href="contact.html">Об авторе</a>
+                <button class="theme-toggle" id="themeToggle">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Об авторе</h1>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <h4>О проекте</h4>
+                <p>Сайт «Гид по ЗОЖ» родился из желания объединить полезный контент и практику программирования. Здесь нет сложных медицинских терминов и строгих правил — только простые рекомендации для тех, кто хочет добавить в свою жизнь больше здоровья маленькими шагами.</p>
+                <h4>Обратная связь</h4>
+                <p>Я открыт к общению. Если у вас есть вопросы, замечания или идеи, как сделать сайт лучше — напишите мне. Ваше мнение поможет улучшить проект и сделать его действительно полезным.</p>
+            </div>
+            <img src="sources/images/логотип для ЗОЖ.jpg" alt="Логотип ЗОЖ" width="200" style="border-radius: 24px;">
+        </div>
+
+        <div class="feedback-form">
+            <h3 style="color: var(--accent-green); margin-bottom: 1rem;">Анкета обратной связи</h3>
+            <form id="feedbackFormElement">
+                <input type="text" id="feedbackName" placeholder="ФИО" required>
+                <input type="tel" id="feedbackPhone" placeholder="Номер телефона">
+                <textarea id="feedbackMessage" rows="4" placeholder="Напишите здесь, что вас интересует..." required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <div class="support-icon">
+                    <img src="sources/images/поддержка.png" alt="Поддержка">
+                </div>
+                <p>© <span id="currentYear"></span> Гид по ЗОЖ</p>
+            </div>
+            <div class="contact-info">
+                <p>📧 <a href="mailto:zaharchik@email.com">zaharchik@email.com</a></p>
+                <p>📞 +7 999-033-56-45</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
